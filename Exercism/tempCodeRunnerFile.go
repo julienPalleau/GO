@@ -1,0 +1,1 @@
+return group_of_ten * 95_000 + individual_cars * 10_000
