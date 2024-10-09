@@ -117,6 +117,7 @@ func hi (name string) string {
 
 /*
 Instructions "Gopher's Gorgeous Lasagna"
+Exercise: https://exercism.org/tracks/go/exercises/lasagna
 
 In this exercise you're going to write some code to help you cook a brilliant lasagna from your favorite cooking book.
 

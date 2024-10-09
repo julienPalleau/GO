@@ -67,6 +67,5 @@ Learn More
 
 /*
 Instructions "Cars Assemble"
-
-It is the same exercise as chapter 3-Numbers: "Cars Assemble"
+Exercise: It is the same exercise as chapter 3-Numbers: "Cars Assemble"
 */

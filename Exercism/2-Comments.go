@@ -54,6 +54,7 @@ func CelsiusFreezingTemp() int {
 
 /*
 Instructions "Weather Forecast"
+Exercise: https://exercism.org/tracks/go/exercises/weather-forecast
 
 Goblinocus is a country that takes its weather forecast very seriously. Since you are a renowned, responsible and proficient developer, they asked you to write a program that can 
 forecast the current weather condition of various cities in Goblinocus. You were busy at the time and asked one of your friends to do the job instead. After a while, the president 
