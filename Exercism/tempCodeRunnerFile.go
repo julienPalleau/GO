@@ -1,1 +1,2 @@
-	return fmt.Sprintf("Welcome to the Tech Palace %s", customer)
+    // fmt.Println(Welcome("Christiane"))
+    // HappyBirthday("Frank", 58)

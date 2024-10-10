@@ -94,6 +94,6 @@ Learn More
 */
 
 /*
-Instruction 
+Instruction "Welcome to Tech Palace!"
 Exercise: It is the same exercise as chapter 6-StringsPackage: "Welcome to Tech Palace!"
 */
