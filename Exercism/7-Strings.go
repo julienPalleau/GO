@@ -86,7 +86,6 @@ Here are some other examples comparing raw string literals with regular string l
 `\t\n`// raw string literal with 4 characters: two backslashes, a 't', and an 'n'
 
 Learn More
-
     Article: Introduction to Strings in Go (https://golangbot.com/strings/)
     Article: Strings in Go (https://go101.org/article/string.html)
     Go Packages: strings package (https://pkg.go.dev/strings)

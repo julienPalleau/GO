@@ -15,7 +15,6 @@ import "strings"
 strings.ToUpper("test") // => "TEST"
 
 Learn More
-
     Go Packages: strings package (https://pkg.go.dev/strings)
     Go by Example: String Functions (https://gobyexample.com/string-functions)
 */

@@ -62,8 +62,8 @@ Append is not a pure function
 
 The append function of Go is optimized for performance and therefore does not make a copy of the input slice. This means that the original slice (1st parameter in append) will be 
 changed sometimes.
-Learn More
 
+Learn More
     A Tour of Go: Slices (https://tour.golang.org/moretypes/7)
     Go by Example: Slices (https://gobyexample.com/slices)
     Go Dev Blog: Slices - Usage and internals (https://go.dev/blog/slices-intro)
@@ -230,6 +230,21 @@ cards := RemoveItem([]int{3, 2, 6, 4, 8}, 11)
 fmt.Println(cards)
 // Output: [3 2 6 4 8]
 */
+
+/*
+Instruction "Card Tricks"
+Exercise: https://exercism.org/tracks/go/exercises/card-tricks 
+
+Exercise Learning Goals
+
+This learning exercise helped evolve your knowledge of Slices and Variadic Functions.
+
+You've unlocked 2 concepts:
+For Loops (https://exercism.org/tracks/go/concepts/for-loops)
+Randomness (https://exercism.org/tracks/go/concepts/randomness)
+
+*/
+
 package main
 
 import "fmt"
@@ -249,34 +264,45 @@ import "fmt"
 //     }
 // }
 
-// SetItem writes an item to a slice at given position overwriting an existing value.
-// If the index is out of range the value needs to be appended.
-func SetItem(slice []int, index, value int) []int {
-	fmt.Println(index, len(slice))
-    if len(slice) > index && index >= 0{
-        slice[index]=value
-        return slice
-    } else {
-        newSlice := append(slice, -1)
-        return newSlice
-    }
-}
+// // SetItem writes an item to a slice at given position overwriting an existing value.
+// // If the index is out of range the value needs to be appended.
+// func SetItem(slice []int, index, value int) []int {
+// 	fmt.Println(index, len(slice))
+//     if len(slice) > index && index >= 0{
+//         slice[index]=value
+//         return slice
+//     } else {
+//         slice = append(slice, value)
+//         return slice
+//     }
+// }
 
-// PrependItems adds an arbitrary number of values at the front of a slice.
-func PrependItems(slice []int, values ...int) []int {
-	panic("Please implement the PrependItems function")
-}
+// // // PrependItems adds an arbitrary number of values at the front of a slice.
+// func PrependItems(slice []int, values ...int) []int {
+//     return append(values, slice...)
+// }
 
 // RemoveItem removes an item from a slice by modifying the existing slice.
 func RemoveItem(slice []int, index int) []int {
-	panic("Please implement the RemoveItem function")
+    if len(slice) > index && index >= 0{
+	    courses := append(slice[:index], slice[index+1:]...)
+        return courses
+    } else {
+        return slice
+    }
 }
 
 func main() {
 
     // fmt.Println(FavoriteCards())
     // fmt.Println(GetItem([]int{10, 12, 14, 11}, 0))
-    index := 2
-    newCard := 6
-    fmt.Println(SetItem([]int{1, 2, 4, 1}, index, newCard))
+    
+    // index := 8
+    // newCard := 8
+    // fmt.Println(SetItem([]int{5, 2, 10, 6, 8, 7, 0, 9}, index, newCard))
+
+    // slice := []int{3, 2, 6, 4, 8}
+    // fmt.Println(PrependItems(slice, 5, 1))
+
+    fmt.Println(RemoveItem([]int{3, 2, 6, 4, 8}, 11))
 }

@@ -33,8 +33,8 @@ fmt.Printf("f is of type: %s\n", reflect.TypeOf(f))
 // Output: f is of type: float64
 
 For more information on Type Conversion please see A Tour of Go: Type Conversions
-Learn More
 
+Learn More
     A Tour of Go: Basic Types (https://tour.golang.org/basics/11)
     A Tour of Go: Type Conversion (https://tour.golang.org/basics/13)
     Go Language Spec: Numeric types (https://golang.org/ref/spec#Numeric_types)
@@ -123,6 +123,7 @@ CalculateCost(37)
 // => 355000
 CalculateCost(21)
 // => 200000
+
 
 */
 

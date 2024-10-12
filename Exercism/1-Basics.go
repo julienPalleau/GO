@@ -50,6 +50,19 @@ Go functions accept zero or more parameters. Parameters must be explicitly typed
 Values are returned from functions using the return keyword.
 A function is invoked by specifying the function name and passing arguments for each of the function's parameters.
 Note that Go supports two types of comments. Single line comments are preceded by // and multiline comments are inserted between / * and / *
+
+
+Learn More
+    Official "Getting Started" Docs (https://golang.org/doc/#getting-started)
+    A Tour of Go (https://tour.golang.org/)
+    Go by Example (https://gobyexample.com/)
+    Effective Go (https://golang.org/doc/effective_go.html)
+    Go Playground (https://play.golang.org/)
+    Go Packages (https://pkg.go.dev/)
+    Awesome Go (https://github.com/avelino/awesome-go)
+    Go Language Specification (https://golang.org/ref/spec)
+
+
 */
 
 

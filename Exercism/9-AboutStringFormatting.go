@@ -26,8 +26,8 @@ You can find a full list of available verbs in the format package documentation.
 
 fmt contains other functions for working with strings, such as Println which simply prints the arguments it receives to the console and Printf which formats the input in the same 
 way as Sprintf before printing it.
-Learn More
 
+Learn More
     Go by Example: String formatting (https://gobyexample.com/string-formatting)
     Go Packages: fmt package (https://pkg.go.dev/fmt)
 */
@@ -127,8 +127,6 @@ AssignTable("Christiane", 27, "Frank", "on the left", 23.7834298)
 // Welcome to my party, Christiane!
 // You have been assigned to table 027. Your table is on the left, exactly 23.8 meters from here.
 // You will be sitting next to Frank.
-
-
 */
 package main
 

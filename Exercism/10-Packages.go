@@ -45,6 +45,7 @@ func hello(name string) string {
 }
 
 The same applies for field names in custom struct types - field names beginning in a capital letter are externally visible, those beginning in a lower case letter are not.
+
 Learn More
     A Tour of Go: Packages (https://tour.golang.org/basics/1)
     A Tour of Go: Imports (https://tour.golang.org/basics/2)

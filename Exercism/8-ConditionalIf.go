@@ -39,7 +39,6 @@ if v := 2 * num; v > 10 {
     Note: any variables created in the initialization statement go out of scope after the end of the if statement.
 
 Learn More
-
     Go by Example: If/Else (https://gobyexample.com/if-else)
     A Tour of Go: If and else (https://tour.golang.org/flowcontrol/7)
     Effective Go: If (https://golang.org/doc/effective_go#if)

@@ -7,9 +7,10 @@ In the previous concept, we saw that there are two ways to write comments in Go:
 / * and * /.
 
 Learn More
-
-    Effective Go: Commentary (external link)
-    Blog Post: Don’t comment bad code, rewrite it (external link) 
+    Effective Go: Commentary (https://golang.org/doc/effective_go#commentary)
+    Blog Post: Don’t comment bad code, rewrite it (https://dave.cheney.net/practical-go/presentations/qcon-china.html#_dont_comment_bad_code_rewrite_it) 
+    Go tools: godoc (https://pkg.go.dev/cmd/go#hdr-Show_documentation_for_package_or_symbol)
+    Go tools: golint (https://github.com/golang/lint) 
 */
 
 /*

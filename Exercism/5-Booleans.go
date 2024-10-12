@@ -14,6 +14,14 @@ The three boolean operators each have a different operator precedence. As a cons
 
 !true && false   // => false
 !(true && false) // => true
+
+
+Learn More
+    Article: Booleans in Golang (external link)
+    Go Language Spec: Logical Operators (external link)
+    Go Language Spec: Operators (external link)
+
+
 */
 
 /*
@@ -94,26 +102,26 @@ var prisonerIsAwake = false
 var petDogIsPresent = false
 fmt.Println(CanFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent))
 // Output: false
+
+Learn More
+    Article: Booleans in Golang (https://golangdocs.com/booleans-in-golang)
+    Go Language Spec: Logical Operators (https://golang.org/ref/spec#Logical_operators)
+    Go Language Spec: Operators (https://golang.org/ref/spec#Operators)
 */
 
 /*
-Instructions "annalyns-infiltration"
+Instructions "Annalyn's infiltration"
 Exercise: https://exercism.org/tracks/go/exercises/annalyns-infiltration
 
-
 About Booleans
-
 Booleans in Go are represented by the bool type, which values can be either true or false.
-
 Go supports three boolean operators: ! (NOT), && (AND), and || (OR).
-
 true || false // => true
 true && false // => false
 !true // => false
 
 The three boolean operators each have a different operator precedence. As a consequence, they are evaluated in this order: ! first, && second, and finally ||. 
 If you want to 'escape' these rules, you can enclose a boolean expression in parentheses (()), as the parentheses have an even higher operator precedence.
-
 !true && false   // => false
 !(true && false) // => true
 */
